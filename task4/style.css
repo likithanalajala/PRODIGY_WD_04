@@ -1,0 +1,181 @@
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    margin: 30; 
+    padding: 0; 
+    background-color: #ffffff; 
+    justify-content: center; 
+} 
+ 
+header { 
+    background: #ffe600; 
+    color: #fff; 
+    padding: 1rem 0; 
+    text-align: center; 
+} 
+ 
+nav ul { 
+    list-style: none; 
+    padding: 0; 
+} 
+ 
+nav ul li { 
+    display: inline; 
+    margin: 0 10px; 
+} 
+ 
+nav ul li a { 
+    color: #ffffff; 
+    text-decoration: none; 
+} 
+ 
+#home { 
+    text-align: center; 
+    padding: 5rem 0; 
+ 
+} 
+ 
+#home img { 
+    width: 350px; 
+    border-radius: 0%; 
+} 
+ 
+section { 
+    padding: 15rem; 
+    background: #fff700; 
+    background-color: rgb(255, 255, 255); 
+    margin: 2rem 0; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+} 
+ 
+h1, h2 { 
+    color: #333333; 
+} 
+ 
+p { 
+    color: #2f3f36; 
+} 
+ 
+#about { 
+    text-align: left; 
+} 
+ 
+#about ul { 
+    list-style-type: disc; 
+    margin-left: 2rem; 
+} 
+ 
+#about ul li { 
+    margin-bottom: 0.5rem; 
+} 
+ 
+#projects { 
+    text-align: center; 
+} 
+ 
+.projects-container { 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+} 
+ 
+.project-box { 
+    background: #daff37; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 1rem; 
+    padding: 1rem; 
+    width: 300px; 
+    transition: transform 0.3s; 
+} 
+ 
+.project-box:hover { 
+    transform: scale(1.05); 
+} 
+ 
+.project-box img { 
+    width: 100%; 
+    border-radius: 10px; 
+} 
+ 
+.project-box h3 { 
+    color: #333; 
+    margin-top: 0.5rem; 
+} 
+ 
+.project-box p { 
+    color: #666; 
+} 
+ 
+.project-box a { 
+    display: inline-block; 
+    margin-top: 0.5rem; 
+    color: #007BFF; 
+    text-decoration: none; 
+} 
+ 
+.project-box a:hover { 
+    text-decoration: underline; 
+} 
+ 
+#contact { 
+    text-align: center; 
+} 
+ 
+.contact-container { 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: flex-start; 
+} 
+ 
+.contact-container form { 
+    width: 50%; 
+    margin-right: 2rem; 
+} 
+ 
+.contact-container form label, 
+.contact-container form input, 
+.contact-container form textarea, 
+.contact-container form button { 
+    display: block; 
+    width: 100%; 
+    margin-bottom: 1rem; 
+    font-size: 1rem; 
+} 
+ 
+.contact-container form textarea { 
+    resize: vertical; 
+} 
+ 
+.contact-container form button { 
+    padding: 0.75rem; 
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+} 
+ 
+.contact-container form button:hover { 
+    background-color: #0056b3; 
+} 
+ 
+.contact-info { 
+    width: 40%; 
+    text-align: left; 
+} 
+ 
+.contact-info ul { 
+    list-style-type: none; 
+    padding: 0; 
+} 
+ 
+.contact-info ul li { 
+    margin-bottom: 0.5rem; 
+} 
+ 
+.contact-info p { 
+    margin-bottom: rem; 
+}
